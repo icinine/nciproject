@@ -1,0 +1,54 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Desc:</strong>
+  <%= @contract.desc %>
+</p>
+
+<p>
+  <strong>Region:</strong>
+  <%= @contract.region %>
+</p>
+
+<p>
+  <strong>Value:</strong>
+  <%= @contract.value %>
+</p>
+
+<p>
+  <strong>Saving:</strong>
+  <%= @contract.saving %>
+</p>
+
+<p>
+  <strong>Supplier:</strong>
+  <%= @contract.supplier %>
+</p>
+
+<p>
+  <strong>Contact:</strong>
+  <%= @contract.contact %>
+</p>
+
+<p>
+  <strong>Dept:</strong>
+  <%= @contract.dept %>
+</p>
+
+<p>
+  <strong>Download:</strong>
+  <%= @contract.download %>
+</p>
+
+<p>
+  <strong>Validfrom:</strong>
+  <%= @contract.validFrom %>
+</p>
+
+<p>
+  <strong>Validto:</strong>
+  <%= @contract.validTo %>
+</p>
+
+<%= link_to 'Edit', edit_contract_path(@contract) %> |
+<%= link_to 'Back', contracts_path %>

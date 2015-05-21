@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   
+  resources :contracts
+
   # Set the root
   root 'pages#home'  
   
